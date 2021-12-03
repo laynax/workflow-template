@@ -1,0 +1,9 @@
+name: Go Application all-in one
+
+jobs:
+  build:
+    name: building...
+    runs-on: ubuntu-latest
+    steps:
+      - name: build
+        run: go build
